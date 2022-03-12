@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+nav a {
+  font-size: 1.1rem;
+  background: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+  position: relative; }
+
+nav img {
+  height: 55px;
+  width: 55px;
+  margin-bottom: 5px; }
+
+nav a:hover, nav a:focus {
+  background-size: 100% 3px; }
+
+.bg-black {
+  background: black; }
+
+.heightNav {
+  height: 20vh; }
+
+@media only screen and (min-width: 768px) {
+  nav img {
+    height: 60px;
+    width: 60px; } }
+
+@media only screen and (min-width: 992px) {
+  .heightNav {
+    height: 12vh; }
+  nav img {
+    height: 70px;
+    padding-top: 10px; } }
+
+body {
+  color: black; }
+
+.heightImg {
+  height: 60vh; }
+
+.transition {
+  transition: 0.6s; }
+
+.buttonCarousel {
+  width: 8%;
+  opacity: 0.2;
+  background-color: black; }
+
+.titulo__secundario--tamaño {
+  font-size: 1.4rem;
+  color: #05AFF2;
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+h1, h2, h3 {
+  color: #05AFF2; }
+
+h3 {
+  font-size: 1rem; }
+
+h4 {
+  font-size: 1.2rem; }
+
+.widthMap {
+  width: 100%;
+  height: 100%; }
+
+.bg-torneo {
+  background-image: url(../img/torneo.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 300px;
+  color: white;
+  margin-top: 10px; }
+
+@media only screen and (min-width: 768px) {
+  .bg-torneo {
+    width: 100%; } }
+
+@media only screen and (min-width: 992px) {
+  .bg-torneo {
+    width: 750px; } }
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 10px; }
+  footer p {
+    text-align: start;
+    padding: 5px 10px;
+    font-size: 0.8rem; }
+  footer div img {
+    width: 90px;
+    height: 50px;
+    border-radius: 10px; }
+
+li a {
+  color: white;
+  transition: color .2s; }
+  li a:hover {
+    text-decoration: none;
+    color: #05AFF2; }
+
+h4 {
+  font-size: 1.2rem;
+  text-align: start; }
+
+.img-email {
+  width: 50px;
+  height: 40px; }
+
+.img--tamaño {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  margin-left: 30px; }
