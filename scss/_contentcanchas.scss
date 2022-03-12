@@ -1,0 +1,53 @@
+body{
+    color: $colorBlack;
+}
+.heightImg{
+    height: 60vh;
+}
+.transition{
+    transition: $carousel-transition-duration;
+}
+.buttonCarousel{
+    width:$carousel-control-width ; 
+    opacity: $carousel-control-opacity;
+    background-color: black;
+}
+.titulo__secundario--tamaño{
+    font-size: ($f-sizeTitulo - 1rem);
+    color: $colorInfo;
+    padding-top: 4px;
+    padding-bottom: 4px; 
+}
+h1, h2, h3{
+    color: $colorInfo;
+}
+h3{
+    font-size: $f-sizeContent;
+}
+h4{
+    font-size: 1.2rem;
+}
+.widthMap{
+    width: 100%;
+    height: 100%;
+}
+
+.bg-torneo{
+    background-image: url(../img/torneo.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 300px;
+    color: $colorWhite;
+    margin-top: 10px;
+
+}
+@media only screen and (min-width: 768px){
+    .bg-torneo{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 992px){
+    .bg-torneo{
+        width: 750px;
+    }
+}

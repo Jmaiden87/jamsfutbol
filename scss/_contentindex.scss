@@ -1,0 +1,43 @@
+h1, h2, h3{
+    color: $colorInfo;
+}
+h3{
+    font-size: $f-sizeContent;
+}
+h4{
+    font-size: 1.2rem;
+}
+.heightImg{
+    height: 60vh;
+}
+.transition{
+    transition: $carousel-transition-duration;
+}
+.buttonCarousel{
+    width:$carousel-control-width ; 
+    opacity: $carousel-control-opacity;
+    background-color: black;
+}
+.widthVideo{
+    width: 300px;
+}
+.with-articulo{
+    width: 150px;
+    height: 150px;
+}
+
+@media only screen and (min-width: 572px){
+    .widthVideo{
+         width: 320px;
+     }
+ }
+@media only screen and (min-width: 992px){
+    .widthVideo{
+         width: 500px;
+     }
+ }
+@media only screen and (min-width: 1200px){
+    .widthVideo{
+         width: 500px;
+     }
+ }

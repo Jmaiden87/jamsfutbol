@@ -1,0 +1,44 @@
+body{
+    color: $colorBlack;
+}
+.titulo__principal--color{
+    color: $colorInfo;
+    font-size: $f-sizeTitulo;
+    margin: 0.5rem;
+}
+.titulo__secundario--tamaño{
+    font-size: ($f-sizeTitulo - 1rem);
+    color: $colorInfo;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.subtitulo-style{
+    @extend .titulo__secundario--tamaño;
+}
+section{
+    p{
+        margin: 0.5rem;
+        letter-spacing: $l-spacingContent;
+        font-size: $f-sizeContent;
+        line-height: 26px;
+    }
+}
+main{
+    p{
+        margin-top: 14px;
+        letter-spacing: $l-spacingContent;
+        font-size: $f-sizeContent;
+        line-height: $l-heightContent;
+    }
+}
+.contenido__precio--bold{
+    font-weight: bold;
+}
+@media only screen and (min-width: 992px){
+    .efecto-img{
+      position: relative;
+    }  
+    .efecto-img:hover{ 
+      transform: translate(10px, 20px);
+    }
+    }

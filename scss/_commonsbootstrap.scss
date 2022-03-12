@@ -1,0 +1,17 @@
+$carousel-transition-duration: .6s;
+$carousel-control-width:  8%;
+$carousel-control-opacity:  .2;
+$carousel-control-color: black;
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    black,
+  "secondary":  blue,
+  "success":    green,
+  "info":       #05aff2,
+  "warning":    red,
+  "danger":    orange,
+  "light":      white,
+  "dark":       gray
+);
+
