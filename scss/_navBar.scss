@@ -1,0 +1,39 @@
+nav a{
+    font-size: ($f-sizeTitulo - 1.3rem);
+    background: linear-gradient(currentColor, currentColor);
+   	background-position: 0% 100%;
+   	background-repeat: no-repeat;
+   	background-size: 0% 2px;
+   	transition: background-size .3s;
+    position: relative;
+}
+nav img{
+    height: 55px;
+    width: 55px;
+    margin-bottom: 5px;
+}
+nav  a:hover, nav a:focus{
+    background-size: 100% 3px;
+}
+.bg-black
+{
+    background: black;
+}
+.heightNav{
+    height: 20vh;
+}
+@media only screen and (min-width: 768px){ 
+    nav img{
+        height: 60px;
+        width: 60px;
+    }
+    } 
+@media only screen and (min-width: 992px){ 
+    .heightNav{
+        height: 12vh;
+    } 
+    nav img{
+        height: 70px;
+        padding-top: 10px;
+    }
+}

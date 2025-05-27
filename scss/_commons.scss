@@ -1,0 +1,62 @@
+// variables
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$bg-dark:#00000000 ;
+$bg-info:#05AFF2;
+$bg-NoRepeat:no-repeat;
+
+
+$d-flex:flex;
+$d-block:block;
+$d-none:none;
+$d-inline:inline-block;
+$d-grid:grid;
+$gap10px: 10px;
+
+
+$f-direction:row;
+$f-flowRowNowrap:row nowrap;
+$f-wrap:wrap;
+
+$j-contentCenter:center;
+$j-contentFend:flex-end;
+$j-contentSE:space-evenly;
+$j-contentSB:space-between;
+$a-contentSB:space-between;
+$a-contentCenter:center;
+$a-contentFend:flex-end;
+$a-item:start;
+$a-itemEnd:end;
+$a-intemSB:space-between;
+$w-80px:80px;
+$w-60px:60px;
+$w-50px:50px;
+$w-90px:90px;
+$w-100px:100px;
+$w-150px:150px;
+$w-100:100%;
+$w-200px:200px;
+$w-250px:250px;
+$w-300px:300px;
+$w-350px:350px;
+$h-50px:50px;
+$h-60px:60px;
+$h-80px:80px;
+$h-180px:180px;
+$h-250px:250px;
+$h-200px:200px;
+$h-300px:300px;
+$h-350px:350px;
+$px-10px:10px;
+
+@mixin w-h($width,$height){
+    width: $width;
+    height: $height;
+}
+
+
+
+
